@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
 import Button from "react-bootstrap/Button";
+import Image from "next/image";
+import planning from "../public/images/planning.png";
 
 export default function Home() {
   return (
@@ -77,6 +79,7 @@ export default function Home() {
             Semaine 8
           </Button>
         </div>
+        <Image src={planning} />
       </main>
 
       <footer className={styles.footer}>Made with 💪🏼 by Manel</footer>

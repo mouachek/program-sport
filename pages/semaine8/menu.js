@@ -16,7 +16,7 @@ export default function Menu() {
             <Image src={home} width={50} height={50} className={styles.logo} />
           </a>
         </div>
-        <h1 className={styles.title}>Semaine 6</h1>
+        <h1 className={styles.title}>Semaine 8</h1>
         <div className={styles.grid}>
           <Button variant="dark" className={styles.button} href="jour2">
             Jour 2
